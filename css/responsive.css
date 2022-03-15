@@ -1,0 +1,350 @@
+@media all and (max-width: 1024px){
+/* ---------------------------------------------------------------
+------------------PAGE.CSS ---------------------------------------
+---------------------------------------------------------------- */
+
+/* Page - Facility */
+#p-facility .fac--lists li .fac__img {
+  width: 381px;
+  height: 381px;
+}
+#p-facility .fac--lists li .fac__img img {
+  width: 190px;
+  height: 190px;
+}
+}
+
+
+
+/* 768px */
+@media all and (max-width: 768px){
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+.title-lg {
+  font-size: 2.4em;
+}
+.title-md {
+  font-size: 1.5em;
+}
+.title-sm {
+  font-size: 1em;
+}
+
+.desc-font {
+  font-size: 0.9em;
+}
+.desc-font-sm {
+  font-size: 0.7em;
+}
+/* Arrow-up button */
+#arrow-up {
+  right: 30px;
+  bottom: 30px;
+  width: 45px;
+  height: 45px;
+  font-size: 28px;
+}
+
+/* ---------------------------------------------------------------
+-------------- MAIN.CSS  -----------------------------------------
+---------------------------------------------------------------- */
+/* HEADER */
+#header .menu-toggle {
+  display: block;
+}
+#header .main--nav {
+  width: 100%;
+  background-color: var(--color-white);
+  display: none;
+}
+#header .main--nav.active {
+  display: block;
+}
+#header .main--nav .nav--lists {
+  width: 100%;
+  flex-direction: column;
+}
+#header .main--nav .nav--lists .main-menu {
+  width: 100%;
+  margin: 12px 0;
+}
+#header .main--nav .nav--lists .main-menu.showSub .sub-menu {
+  position: relative;
+}
+#header .main--nav .nav--lists .main-menu .sub-menu {
+  width: 100%;
+  left: 0;
+}
+#header .main--nav .nav--lists .main-menu .sub-menu li {
+  text-align: center;
+}
+/* ABOUT */
+#about .desc {
+  width: 70%;
+}
+
+/* SHORT IMAGE MENU */
+#imgMenu .imgMenu--lists li,
+#imgMenu .imgMenu--lists li:nth-child(even) {
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+#imgMenu .imgMenu--lists li .imgMenu__img {
+  width: 100%;
+  height: 300px;
+}
+#imgMenu .imgMenu--lists li .imgMenu__text {
+  width: 100%;
+  height: auto;
+  padding: 25px 0 60px;
+}
+
+/* ---------------------------------------------------------------
+------------------PAGE.CSS ---------------------------------------
+---------------------------------------------------------------- */
+/* Page - About */
+#p-about .aboutUs li:nth-child(1) {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+#p-about .aboutUs li:nth-child(1) .about__text {
+  width: 100%;
+}
+#p-about .aboutUs li:nth-child(1) .about__img {
+  width: 250px;
+  height: 250px;
+}
+#p-about .aboutUs li:nth-child(2) {
+  height: auto;
+  flex-direction: column-reverse;
+}
+#p-about .aboutUs li:nth-child(2) .about__text {
+  width: 100%;
+  padding: 60px 20px;
+}
+#p-about .aboutUs li:nth-child(2) .about__text .desc-font {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: translateY(0);
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+#p-about .aboutUs li:nth-child(2) .about__img {
+  width: 100%;
+  height: 300px;
+}
+#p-about .team__gallery li {
+  width: 150px;
+  height: 150px;
+}
+
+/* Page - Blog */
+#p-blog .blog__wrapper .blog__list .list__img {
+  width: 200px;
+  height: 200px;
+}
+#p-blog .blog__wrapper .blog__list .list__text {
+  height: 200px;
+}
+
+/* Page - Team */
+#p-team .p-team--wrapper .team--list,
+#p-team .p-team--wrapper .team--list:nth-child(even) {
+  flex-direction: column;
+}
+#p-team .p-team--wrapper .team--list .profile__img {
+  width: 200px;
+  height: 200px;
+  margin: 0;
+}
+#p-team .p-team--wrapper .team--list .profile__history {
+  width: 100%;
+  margin: 30px 0;
+  align-items: center;
+}
+#p-team .p-team--wrapper .team--list:nth-child(even) .profile__history {
+  align-items: center;
+  text-align: left;
+}
+#p-team .p-team--wrapper .team--list .profile__history .history span {
+  text-align: center;
+}
+
+/* Page - Lessons */
+#p-lessons .p-lessons--lists .lesson--type {
+  flex-direction: column;
+  border-bottom: none;
+  margin: 30px 10px 80px;
+}
+#p-lessons .p-lessons--lists .lesson--type .lesson__text {
+  width: 100%;
+  margin-left: 0;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+#p-lessons .p-lessons--lists .lesson--type .lesson__text .lesson__info span {
+  display: block;
+  width: 100%;
+}
+
+/* Page - Facility */
+#p-facility .fac--lists li,
+#p-facility .fac--lists li:nth-child(even) {
+  flex-direction: column;
+  margin-bottom: 120px;
+}
+#p-facility .fac--lists li .fac__img {
+  margin-bottom: 30px;
+}
+#p-facility .fac--lists li .fac__text {
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------
+-------------- SINGLE.CSS  ---------------------------------------
+---------------------------------------------------------------- */
+/* Single - blog */
+#s-blog .s-blog--wrapper li .s-blog__img {
+  width: 90%;
+}
+#s-blog .s-blog--wrapper li .s-blog__text {
+  width: 90%;
+}
+}
+@media all and (max-width:540px)  {
+/* ---------------------------------------------------------------
+------------------COMMON.CSS--------------------------------------
+---------------------------------------------------------------- */
+.title-lg {
+  font-size: 1.6em;
+}
+.title-md {
+  font-size: 1.2em;
+}
+.title-sm {
+  font-size: 0.95em;
+}
+
+.desc-font {
+  font-size: 0.85em;
+}
+/* Arrow-up button */
+#arrow-up {
+  right: 25px;
+  bottom: 25px;
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+}
+/* ---------------------------------------------------------------
+-------------- MAIN.CSS ------------------------------------------
+---------------------------------------------------------------- */
+/* HEADER */
+#header .main--nav ul li a {
+  font-size: 0.9em;
+}
+
+/* INTRO */
+#intro .intro__bg .videoBox {
+  padding-top: 110%;
+}
+
+/* ABOUT */
+#about .desc {
+  width: 80%;
+}
+
+
+/* ---------------------------------------------------------------
+-------------- PAGE.CSS  -----------------------------------------
+---------------------------------------------------------------- */
+/* Page - About */
+#p-about .team__gallery {
+  flex-wrap: wrap;
+}
+#p-about .team__gallery li {
+  width: 45%;
+}
+
+
+/* Page - Blog */
+#p-blog .blog__wrapper .blog__list {
+  width: 85%;
+}
+#p-blog .blog__wrapper .blog__list .list__img {
+  width: 100px;
+  height: 100px;
+}
+#p-blog .blog__wrapper .blog__list .list__text {
+  height: 100px;
+}
+#p-blog .blog__wrapper .blog__list .list__text .desc-font-sm {
+  display: none;
+}
+#p-blog .blog__wrapper .blog__list .list__text .btnBox {
+  margin-top: 0;
+}
+
+/* Page - Facility */
+#p--facility .fac--lists li .fac__img {
+  width: 271px;
+  height: 271px;
+}
+#p--facility .fac--lists li .fac__img img {
+  width: 135px;
+  height: 135px;
+}
+
+/* Page - Rentals */
+#rentals .rent--bg .videoBox {
+  padding-top: 60%;
+}
+#rentals .rent--lists li {
+  width: 80%;
+}
+#rentals .rent--lists li::before{
+  top: 110%;
+  transform: translateY(0);
+  right: 50%;
+  transform: translateX(50%);
+  width: 10%;
+  height: 2px;
+}
+#rentals .rent--lists li:nth-child(even)::before {
+  display: block;
+}
+#rentals .rent--lists li:last-child::before {
+  display: none;
+}
+
+/* Page - Contact */
+#p-contact .section__bg .imgBox,
+#p-contact .map {
+  height: 400px;
+}
+#p-contact .section__bg .title .desc-font-sm {
+  width: 90%;
+}
+#p-contact .reachUs .reach__title .desc-font,
+#p-contact .getForm .form__title .desc-font,
+#p-contact .getForm form {
+  width: 80%;
+}
+
+#p-contact .reachUs .reach__lists {
+  flex-wrap: wrap;
+}
+#p-contact .reachUs .reach__lists li {
+  width: 55%;
+  margin-right: 0;
+  margin-bottom: 25px;
+}
+}
